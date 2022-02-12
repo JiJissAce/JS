@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>r=끝말잇기</title>
+</head>
+<body>
+  <div><span id="order">1</span>번째 참가자</div>
+  <div>제시어 : <span id="word">지지스<span calss = 'clcl'></span></span></div>
+  <input type="text" name="" id="">
+  <button>입력</button>
+
+  <script>
+    //const number = parseInt(prompt('몇 명입니까?'),10); //10진법
+    //alert(number+'명 입니다.');
+    //const yesOrNo = confirm('맞나요?');
+    //console.log('인원 = ',number);
+
+    //tag   : non   document.querySelector('div');
+    //id    : #     document.querySelector('div #order');
+    //class : .     document.querySelector('div #order .clcl');
+    let keyWord = '지지스'
+    let inputWord;
+
+    document.querySelector('input').addEventListener('input',function(event) {
+      inputWord = event.target.value;
+      //console.log('글자',event.target.value);
+    });
+
+    document.querySelector('button').addEventListener('click',function() {
+      console.log('입력 값은 = ',inputWord);
+      if(keyWord === inputWord) {
+        console.log('같다');
+        //document.querySelector('#word').
+      }
+      else console.log('다르다');
+    });
+  </script>
+</body>
+</html>
