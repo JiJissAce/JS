@@ -1,0 +1,14 @@
+#top_banner {
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(99, 99, 168);
+}
+
+.site_name {
+    background-color: black;
+    border: 10px;
+
+    width: 10px;
+    list-style: none;
+}
