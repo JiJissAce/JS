@@ -4,11 +4,20 @@
     padding-bottom: 0px;
     background-color: rgb(99, 99, 168);
 }
+.top_menu_frist {
 
-.site_name {
-    background-color: black;
-    border: 10px;
+}
+.top_menu_frist h1{
 
-    width: 10px;
-    list-style: none;
+}
+.top_menu_frist h1 a{
+    float: left;
+}
+.top_menu_frist nav{
+
+}
+
+.top_menu_frist nav ul li{
+float: left;
+list-style: none;
 }
